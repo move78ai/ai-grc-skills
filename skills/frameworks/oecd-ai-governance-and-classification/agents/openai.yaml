@@ -1,0 +1,5 @@
+version: 1
+name: oecd-ai-governance-and-classification
+display_name: "OECD AI Governance and Classification"
+description: "Comprehensive workflow skill for classifying ai systems with the oecd framework, assessing governance needs across the ai lifecycle, and operationalizing the oecd ai principles."
+instructions_file: ../SKILL.md

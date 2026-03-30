@@ -1,0 +1,5 @@
+version: 1
+name: colorado-ai-act-impact-assessment
+display_name: "Colorado AI Act Impact Assessment"
+description: "Workflow-first skill for colorado ai act compliance and impact assessment under sb24-205 as amended by sb25b-004. use when chatgpt needs to determine whether an ai system is."
+instructions_file: ../SKILL.md

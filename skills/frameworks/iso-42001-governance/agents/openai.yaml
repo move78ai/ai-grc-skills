@@ -1,0 +1,5 @@
+version: 1
+name: iso-42001-governance
+display_name: "ISO/IEC 42001 Governance"
+description: "'use this skill when chatgpt needs to help with iso/iec 42001 ai management systems, including aims scoping, self-assessment, gap analysis, statement of applicability drafting."
+instructions_file: ../SKILL.md

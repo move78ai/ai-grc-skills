@@ -1,0 +1,5 @@
+version: 1
+name: third-party-ai-supplier-risk
+display_name: "Third-Party AI / Supplier Risk"
+description: "Comprehensive workflow skill for assessing, approving, contracting, monitoring, and offboarding third-party ai providers, foundation models, datasets, APIs, embedded ai."
+instructions_file: ../SKILL.md

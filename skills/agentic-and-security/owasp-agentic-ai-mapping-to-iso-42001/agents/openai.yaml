@@ -1,0 +1,5 @@
+version: 1
+name: owasp-agentic-ai-mapping-to-iso-42001
+display_name: "OWASP Agentic AI Mapping to ISO 42001"
+description: "Comprehensive workflow skill for mapping owasp agentic ai top 10 findings to iso/iec 42001 clauses, annex a controls, evidence requirements, and implementation actions. use when."
+instructions_file: ../SKILL.md

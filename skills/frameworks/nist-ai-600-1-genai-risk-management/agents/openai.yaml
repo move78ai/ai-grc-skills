@@ -1,0 +1,5 @@
+version: 1
+name: nist-ai-600-1-genai-risk-management
+display_name: "NIST AI 600-1 GenAI Risk Management"
+description: "Use this skill when chatgpt needs to help with nist ai 600-1 generative ai profile work, including genai risk screening, profile-based gap analysis, content provenance planning."
+instructions_file: ../SKILL.md

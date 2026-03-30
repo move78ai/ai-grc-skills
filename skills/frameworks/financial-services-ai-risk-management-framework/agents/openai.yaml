@@ -1,0 +1,5 @@
+version: 1
+name: financial-services-ai-risk-management-framework
+display_name: "Financial Services AI Risk Management Framework"
+description: "Comprehensive workflow skill for applying the financial services ai risk management framework in banks, insurers, payment providers, fintechs, market infrastructure firms."
+instructions_file: ../SKILL.md

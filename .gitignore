@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+.idea/
+.vscode/
+dist/
+build/
+*.tmp
+*.temp
+*.bak
+*.zip
+release/
+release-assets/

@@ -1,0 +1,5 @@
+version: 1
+name: mit-ai-governance-mapping
+display_name: "MIT AI Governance Mapping"
+description: "Comprehensive workflow skill for mapping ai governance documents, frameworks, laws, standards, and guidance using the mit ai governance mapping project as the primary public."
+instructions_file: ../SKILL.md

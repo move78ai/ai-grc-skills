@@ -1,0 +1,5 @@
+version: 1
+name: agentic-ai-governance
+display_name: "Agentic AI Governance"
+description: "Comprehensive workflow skill for governing agentic ai deployments using the singapore imda model ai governance framework for agentic ai and complementary ai risk management."
+instructions_file: ../SKILL.md

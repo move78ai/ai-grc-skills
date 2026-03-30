@@ -1,0 +1,5 @@
+version: 1
+name: tevv-ai-assurance-pre-deployment-testing
+display_name: "TEVV / AI Assurance / Pre-Deployment Testing"
+description: "Workflow-first ai assurance support for testing, evaluation, verification, validation, and pre-deployment approval. use when chatgpt needs to design or review tevv programs."
+instructions_file: ../SKILL.md

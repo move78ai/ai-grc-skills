@@ -1,0 +1,5 @@
+version: 1
+name: south-korea-high-impact-ai-readiness
+display_name: "South Korea High-Impact AI Readiness"
+description: "Use this skill when chatgpt needs to help with south korea ai basic act readiness work, including high-impact ai screening, ai transparency and genai labeling analysis, risk."
+instructions_file: ../SKILL.md

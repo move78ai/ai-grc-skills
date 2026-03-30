@@ -1,0 +1,5 @@
+version: 1
+name: ai-system-inventory-shadow-ai-discovery
+display_name: "AI System Inventory Shadow AI Discovery"
+description: "Comprehensive workflow skill for building and operating an ai system inventory and shadow ai discovery program using nist ai rmf governance and inventory practices, iso 42001."
+instructions_file: ../SKILL.md

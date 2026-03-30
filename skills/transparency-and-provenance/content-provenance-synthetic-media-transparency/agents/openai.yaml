@@ -1,0 +1,5 @@
+version: 1
+name: content-provenance-synthetic-media-transparency
+display_name: "Content Provenance / Synthetic Media Transparency"
+description: "Workflow-first skill for designing, assessing, and operating content provenance and synthetic media transparency controls. use when chatgpt needs to classify media workflows."
+instructions_file: ../SKILL.md
