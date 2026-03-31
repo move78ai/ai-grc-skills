@@ -1,6 +1,6 @@
 # Release Assets
 
-Canonical public release asset names for packaging and GitHub releases:
+Canonical public asset names for release packaging:
 
 - `ai-grc-and-regulatory-skill.zip`
 - `iso-42001-governance-skill.zip`

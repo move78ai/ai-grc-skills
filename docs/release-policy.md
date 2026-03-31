@@ -1,13 +1,14 @@
 # Release Policy
 
-## Source tree
-- The repository stores normalized source material only.
-- Release bundles are generated from the repo contents and published separately.
+## Canonical source
+- The repository source tree is the canonical product.
+- Release ZIPs are distribution artifacts generated from source.
 
-## Public-safe standard
-- Keep only redistributable markdown, lightweight references, and agent metadata in source control.
-- Exclude raw PDFs, session handoff notes, and internal-only packaging debris.
+## Public-safe packaging
+- Only package public-safe material that is already approved for source control.
+- Do not add raw standards text, private handoff files, PDFs, large binaries, or temporary packaging debris.
 
 ## Versioning
-- Update `CHANGELOG.md` for each release candidate.
-- Keep asset names stable so downstream installers can rely on predictable zip filenames.
+- Update `CHANGELOG.md` with meaningful repository changes.
+- Keep asset names stable so downstream installation instructions stay valid.
+- Package the umbrella router separately from standalone skills.

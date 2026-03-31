@@ -1,11 +1,15 @@
 # Skill Installation
 
-## Local use
-- Browse to the skill folder you want.
-- Use `SKILL.md` as the canonical instruction file.
-- Keep `agents/openai.yaml` with the skill so agent loaders can resolve a clean display name and description.
+## Use from source
+- Open the target folder in the repo.
+- Review `README.md` for fit and operating boundaries.
+- Use `SKILL.md` directly when running the skill from source.
 
-## Packaging
-- Package one standalone zip per skill folder.
-- Package the umbrella controller separately.
-- Do not include private drafts, PDFs, or temporary packaging files in release bundles.
+## Agent metadata
+- `agents/openai.yaml` provides the public display name and short behavior summary for agent loaders.
+- Keep the YAML description aligned with the skill README and frontmatter.
+
+## Packaged distribution
+- Release assets should mirror the source folder names.
+- Build packaged ZIPs from the current source tree.
+- Do not assume every source folder includes local helper scripts or templates; the instruction layer remains authoritative.

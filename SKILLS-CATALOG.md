@@ -1,142 +1,67 @@
 # Skills Catalog
 
-This catalog is the fastest way to understand what sits where in the repository.
-
-If you already know the problem you are solving, skip the umbrella skill and go straight to the relevant domain folder.
-
-If you do **not** know where to start, begin with:
-
-- [AI GRC and Regulatory umbrella skill](umbrella/ai-grc-and-regulatory/)
-
----
+Use this file when you need the shortest route to the right skill.
 
 ## Umbrella controller
 
-| Skill | Purpose | Path |
-|---|---|---|
-| AI GRC and Regulatory | Intake and routing layer for the full library. Helps classify the user’s problem and point to the right domain skill. | `umbrella/ai-grc-and-regulatory/` |
-
----
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| AI GRC and Regulatory | Umbrella controller | Router skill for AI governance, risk, compliance, security, supplier, and assurance workflows. | route memo; scoped work plan; merged output contract | `umbrella/ai-grc-and-regulatory/` |
 
 ## Frameworks
 
-| Skill | What it is for | Path |
-|---|---|---|
-| ISO 42001 Governance | AI management system scoping, self-assessment, SoA drafting, policy drafting, governance design, and crosswalk work. | `skills/frameworks/iso-42001-governance/` |
-| NIST AI RMF Governance | AI RMF adoption, trustworthy AI analysis, gap analysis, profiles, TEVV planning, GenAI review, cyber-AI prioritization, and crosswalks. | `skills/frameworks/nist-ai-rmf-governance/` |
-| NIST AI 600-1 GenAI Risk Management | GenAI risk screening, content provenance planning, supplier review, incident disclosure planning, and evidence-pack drafting. | `skills/frameworks/nist-ai-600-1-genai-risk-management/` |
-| OECD AI Governance and Classification | OECD-based AI system classification, lifecycle-stage governance, inventory records, and principle-to-action operationalization. | `skills/frameworks/oecd-ai-governance-and-classification/` |
-| Financial Services AI Risk Management Framework | Sector-specific AI governance for financial institutions, with control mapping, evidence planning, and exam-readiness outputs. | `skills/frameworks/financial-services-ai-risk-management-framework/` |
-
----
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| ISO/IEC 42001 Governance | Frameworks | Operator-grade ISO/IEC 42001 workflows for scoping, gap analysis, SoA drafting, policy design, and evidence planning. | Clause-by-clause gap analysis with evidence requests.; Statement of Applicability starter and control selection rationale. | `skills/frameworks/iso-42001-governance/` |
+| NIST AI RMF Governance | Frameworks | Workflow-first NIST AI RMF guidance for gap analysis, profiles, TEVV planning, GenAI screening, and crosswalk work. | AI RMF gap analysis with prioritized actions.; System profile, risk register, or TEVV plan. | `skills/frameworks/nist-ai-rmf-governance/` |
+| NIST AI 600-1 GenAI Risk Management | Frameworks | Operator-grade NIST AI 600-1 workflows for GenAI risk review, provenance planning, supplier checks, and incident readiness. | GenAI risk review with prioritized safeguards.; Provenance or transparency plan. | `skills/frameworks/nist-ai-600-1-genai-risk-management/` |
+| OECD AI Governance and Classification | Frameworks | Workflow-first OECD AI classification and governance guidance for inventories, lifecycle review, and principle-to-action mapping. | Classification profile and inventory-ready record.; Lifecycle governance checklist or operating plan. | `skills/frameworks/oecd-ai-governance-and-classification/` |
+| Financial Services AI Risk Management Framework | Frameworks | Sector-specific AI governance workflows for financial institutions, control mapping, evidence planning, and exam readiness. | Control implementation register and evidence plan.; Maturity or gap assessment with prioritized actions. | `skills/frameworks/financial-services-ai-risk-management-framework/` |
 
 ## Regulations
 
-| Skill | What it is for | Path |
-|---|---|---|
-| EU AI Act Compliance | Scope checks, prohibited-practice screening, high-risk classification, FRIA work, technical documentation, GPAI readiness, and post-market monitoring. | `skills/regulations/eu-ai-act-compliance/` |
-| Colorado AI Act Impact Assessment | Colorado SB24-205 / SB25B-004 high-risk screening, deployer impact assessments, consumer notices, developer documentation requests, and readiness analysis. | `skills/regulations/colorado-ai-act-impact-assessment/` |
-| South Korea High-Impact AI Readiness | South Korea AI Basic Act readiness, high-impact screening, transparency/labeling analysis, risk planning, explanation feasibility, and domestic representative readiness. | `skills/regulations/south-korea-high-impact-ai-readiness/` |
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| EU AI Act Compliance | Regulations | Workflow-first EU AI Act support for scope screening, high-risk analysis, FRIA work, GPAI readiness, and evidence planning. | Risk-classification memo or screening memo.; High-risk gap analysis, FRIA starter, or provider/deployer action plan. | `skills/regulations/eu-ai-act-compliance/` |
+| Colorado AI Act Impact Assessment | Regulations | Operator-grade Colorado AI Act workflows for high-risk screening, deployer impact assessments, notices, and retained evidence. | High-risk screening memo or impact assessment.; Consumer notice pack or adverse-decision explanation draft. | `skills/regulations/colorado-ai-act-impact-assessment/` |
+| South Korea High-Impact AI Readiness | Regulations | Workflow-first South Korea AI Basic Act readiness support for high-impact screening, labeling, operator controls, and evidence packs. | High-impact screening memo or readiness gap analysis.; Transparency and labeling pack or operator-controls pack. | `skills/regulations/south-korea-high-impact-ai-readiness/` |
 
----
+## Agentic and Security
 
-## Agentic and security
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| Agentic AI Governance | Agentic and Security | Workflow-first governance guidance for agent suitability, bounded autonomy, accountability, oversight, and phased rollout. | Governance profile or use-case suitability memo.; Bounded-autonomy matrix, accountability split, or oversight plan. | `skills/agentic-and-security/agentic-ai-governance/` |
+| Agentic AI Security | Agentic and Security | Operator-grade security guidance for agentic threat models, least agency, memory risks, dependencies, and monitoring. | Threat model, least-agency matrix, or deployment-hardening plan.; Monitoring and detection plan or containment playbook. | `skills/agentic-and-security/agentic-ai-security/` |
+| MITRE ATLAS AI Security | Agentic and Security | Workflow-first MITRE ATLAS support for AI threat models, attack scenarios, mitigations, detections, and exercise planning. | Threat model register or scenario catalog.; Detection and monitoring plan or exercise plan. | `skills/agentic-and-security/mitre-atlas-ai-security/` |
+| MITRE ATLAS to Controls Mapping | Agentic and Security | Operator-grade control-mapping support that turns MITRE ATLAS findings into control themes, evidence needs, and owner actions. | Control mapping tracker and implementation register.; Evidence checklist or action plan. | `skills/agentic-and-security/mitre-atlas-to-controls-mapping/` |
+| OWASP Agentic AI Mapping to ISO/IEC 42001 | Agentic and Security | Workflow-first mapping support that turns OWASP Agentic AI findings into ISO/IEC 42001 control, evidence, and remediation views. | Crosswalk tracker and evidence request pack.; Implementation action register or residual-risk memo. | `skills/agentic-and-security/owasp-agentic-ai-mapping-to-iso-42001/` |
 
-| Skill | What it is for | Path |
-|---|---|---|
-| Agentic AI Governance | Use-case suitability, bounded autonomy, accountability, human oversight, rollout planning, and residual-risk decisions for agentic systems. | `skills/agentic-and-security/agentic-ai-governance/` |
-| Agentic AI Security | Threat modeling, least-agency design, memory/context risk review, supply-chain hardening, observability, and incident planning for agentic applications. | `skills/agentic-and-security/agentic-ai-security/` |
-| MITRE ATLAS AI Security | Threat-informed AI security review using MITRE ATLAS for AI-enabled systems, including threat models, detections, exercises, and residual-risk outputs. | `skills/agentic-and-security/mitre-atlas-ai-security/` |
-| MITRE ATLAS to Controls Mapping | Converts ATLAS-informed threat findings into derivative ISO 42001 control themes, evidence needs, implementation actions, and decision outputs. | `skills/agentic-and-security/mitre-atlas-to-controls-mapping/` |
-| OWASP Agentic AI Mapping to ISO 42001 | Maps OWASP Agentic AI Top 10 findings into ISO 42001 clauses, Annex A controls, evidence requirements, and implementation actions. | `skills/agentic-and-security/owasp-agentic-ai-mapping-to-iso-42001/` |
+## Inventory and Suppliers
 
----
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| AI System Inventory and Shadow AI Discovery | Inventory and Suppliers | Workflow-first inventory support for sanctioned and unsanctioned AI systems, ownership mapping, dependency capture, and risk tiering. | Inventory register or discovery log.; Owner matrix, dependency record, or risk-tiering worksheet. | `skills/inventory-and-suppliers/ai-system-inventory-shadow-ai-discovery/` |
+| AIBOM / AI Bill of Materials | Inventory and Suppliers | Operator-grade AIBOM workflows for component inventories, provenance, dependency mapping, version tracking, and supplier evidence requests. | AIBOM register, dependency map, or provenance record.; Supplier evidence request or component approval memo. | `skills/inventory-and-suppliers/aibom-ai-bill-of-materials/` |
+| Third-Party AI / Supplier Risk | Inventory and Suppliers | Workflow-first supplier-risk guidance for due diligence, evidence requests, contract controls, monitoring, and fallback planning. | Due diligence pack, evidence request, or approval memo.; Contract annex, monitoring plan, or contingency plan. | `skills/inventory-and-suppliers/third-party-ai-supplier-risk/` |
 
-## Inventory and suppliers
+## Assurance and Oversight
 
-| Skill | What it is for | Path |
-|---|---|---|
-| AI System Inventory Shadow AI Discovery | Enterprise AI inventory design, shadow AI discovery, classification, ownership mapping, dependency documentation, and remediation planning. | `skills/inventory-and-suppliers/ai-system-inventory-shadow-ai-discovery/` |
-| AIBOM AI Bill of Materials | AI bill of materials creation and maintenance for systems, models, agents, datasets, providers, tools, and dependencies. | `skills/inventory-and-suppliers/aibom-ai-bill-of-materials/` |
-| Third-Party AI Supplier Risk | Supplier due diligence, evidence requests, contract/SLA controls, monitoring, contingency planning, and third-party approval decisions. | `skills/inventory-and-suppliers/third-party-ai-supplier-risk/` |
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| TEVV / AI Assurance / Pre-Deployment Testing | Assurance and Oversight | Workflow-first TEVV support for assurance programs, test plans, metrics, release gates, and retest triggers. | TEVV plan, evidence checklist, or metric register.; Go/no-go memo, residual-risk note, or independent-review log. | `skills/assurance-and-oversight/tevv-ai-assurance-pre-deployment-testing/` |
+| Human Oversight / Meaningful Human Control | Assurance and Oversight | Operator-grade oversight guidance for checkpoint design, overrides, appeals, reviewer roles, and oversight effectiveness. | Oversight plan, trigger matrix, or override log structure.; Appeal and recourse flow or operator-competency plan. | `skills/assurance-and-oversight/human-oversight-meaningful-human-control/` |
+| AI Board Reporting / Executive Oversight | Assurance and Oversight | Workflow-first executive-reporting support for board packs, dashboards, top-risk views, and residual-risk decisions. | Board pack, dashboard, or heatmap.; Top-risk register, decision memo, or management action tracker. | `skills/assurance-and-oversight/ai-board-reporting-executive-oversight/` |
+| AI Incident Management / Incident Disclosure | Assurance and Oversight | Workflow-first incident guidance for AI triage, containment, disclosure decisions, evidence preservation, and after-action work. | Incident triage memo or severity assessment.; Disclosure decision record, notice draft, or board briefing. | `skills/assurance-and-oversight/ai-incident-management-incident-disclosure/` |
 
----
+## Risk and Landscape
 
-## Assurance and oversight
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| MIT AI Risk Repository | Risk and Landscape | Workflow-first MIT AI Risk Repository guidance for risk classification, prioritization, mitigation planning, and executive summaries. | MIT-aligned risk register or mitigation plan.; Gap analysis, evidence request list, or executive risk summary. | `skills/risk-and-landscape/mit-ai-risk-repository/` |
+| MIT AI Governance Mapping | Risk and Landscape | Operator-grade governance-mapping support for comparing laws, standards, frameworks, and guidance through a single coverage lens. | Coverage matrix, governance gap summary, or priority log.; Comparison memo across laws, standards, or guidance sets. | `skills/risk-and-landscape/mit-ai-governance-mapping/` |
 
-| Skill | What it is for | Path |
-|---|---|---|
-| TEVV AI Assurance Pre-Deployment Testing | TEVV program design, pre-deployment test plans, metric thresholds, go/no-go packages, and readiness assessments. | `skills/assurance-and-oversight/tevv-ai-assurance-pre-deployment-testing/` |
-| Human Oversight Meaningful Human Control | Oversight mode selection, checkpoint and override design, escalation, appeal, competency, and oversight effectiveness reviews. | `skills/assurance-and-oversight/human-oversight-meaningful-human-control/` |
-| AI Board Reporting Executive Oversight | Board-ready reporting, executive dashboards, top-risk registers, residual-risk memos, incident briefings, and management action tracking. | `skills/assurance-and-oversight/ai-board-reporting-executive-oversight/` |
-| AI Incident Management Incident Disclosure | AI incident response design, incident classification, severity triage, escalation, disclosure decisions, after-action reviews, and operator artifacts. | `skills/assurance-and-oversight/ai-incident-management-incident-disclosure/` |
+## Transparency and Provenance
 
----
-
-## Risk and landscape
-
-| Skill | What it is for | Path |
-|---|---|---|
-| MIT AI Risk Repository | Practical risk identification, classification, prioritization, mitigation planning, and risk-register generation using MIT’s risk repository structure. | `skills/risk-and-landscape/mit-ai-risk-repository/` |
-| MIT AI Governance Mapping | Governance landscape analysis across frameworks, laws, standards, and guidance using MIT’s governance mapping lens. | `skills/risk-and-landscape/mit-ai-governance-mapping/` |
-
----
-
-## Transparency and provenance
-
-| Skill | What it is for | Path |
-|---|---|---|
-| Content Provenance Synthetic Media Transparency | Provenance design, synthetic media transparency controls, disclosure and labeling logic, supplier capability review, and rollout planning. | `skills/transparency-and-provenance/content-provenance-synthetic-media-transparency/` |
-
----
-
-## Suggested starting points by use case
-
-### If the problem is “Which framework should I use?”
-Start with:
-- `skills/frameworks/iso-42001-governance/`
-- `skills/frameworks/nist-ai-rmf-governance/`
-- `skills/frameworks/oecd-ai-governance-and-classification/`
-
-### If the problem is “What law applies?”
-Start with:
-- `skills/regulations/eu-ai-act-compliance/`
-- `skills/regulations/colorado-ai-act-impact-assessment/`
-- `skills/regulations/south-korea-high-impact-ai-readiness/`
-
-### If the problem is “How do I govern or secure an agentic system?”
-Start with:
-- `skills/agentic-and-security/agentic-ai-governance/`
-- `skills/agentic-and-security/agentic-ai-security/`
-- `skills/agentic-and-security/mitre-atlas-ai-security/`
-
-### If the problem is “How do I manage inventory, suppliers, or dependencies?”
-Start with:
-- `skills/inventory-and-suppliers/ai-system-inventory-shadow-ai-discovery/`
-- `skills/inventory-and-suppliers/aibom-ai-bill-of-materials/`
-- `skills/inventory-and-suppliers/third-party-ai-supplier-risk/`
-
-### If the problem is “How do I test, oversee, or report on this?”
-Start with:
-- `skills/assurance-and-oversight/tevv-ai-assurance-pre-deployment-testing/`
-- `skills/assurance-and-oversight/human-oversight-meaningful-human-control/`
-- `skills/assurance-and-oversight/ai-board-reporting-executive-oversight/`
-- `skills/assurance-and-oversight/ai-incident-management-incident-disclosure/`
-
-### If the problem is “How do I classify risk or understand the governance landscape?”
-Start with:
-- `skills/risk-and-landscape/mit-ai-risk-repository/`
-- `skills/risk-and-landscape/mit-ai-governance-mapping/`
-- `skills/frameworks/oecd-ai-governance-and-classification/`
-
-### If the problem is “How do I handle provenance, labels, or synthetic media?”
-Start with:
-- `skills/transparency-and-provenance/content-provenance-synthetic-media-transparency/`
-
----
-
-## Operating note
-
-This repository is intentionally modular.
-
-The umbrella skill gives the library a unified front door, but the standalone domain skills remain the real working units. That keeps the repo easier to maintain, easier to update, and easier to use.
+| Skill | Category | Operator focus | Typical outputs | Path |
+| --- | --- | --- | --- | --- |
+| Content Provenance / Synthetic Media Transparency | Transparency and Provenance | Workflow-first provenance and transparency guidance for media workflows, synthetic content labels, supplier checks, and rollout planning. | Content-credential rollout plan or disclosure decision log.; Transparency memo, supplier evidence request, or monitoring checklist. | `skills/transparency-and-provenance/content-provenance-synthetic-media-transparency/` |

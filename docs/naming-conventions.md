@@ -1,14 +1,23 @@
 # Naming Conventions
 
-## Folder names
-- Use lowercase, hyphen-separated names.
-- Group skills under the approved category folders only.
+## Paths and slugs
+- Keep folder names lowercase and hyphen-separated.
+- Preserve live public slugs unless there is a real defect that justifies a path change.
 
-## Core files
-- `SKILL.md` is the canonical instruction filename.
-- `README.md` is the GitHub-facing explanation file.
-- `agents/openai.yaml` provides a lightweight machine-readable descriptor.
+## Public file names
+- `SKILL.md` is the canonical instruction file.
+- `README.md` is the operator-facing overview.
+- `agents/openai.yaml` is the machine-readable metadata file.
 
-## Release assets
-- Use `<skill-slug>-skill.zip` for standalone releases.
-- Use `ai-grc-and-regulatory-skill.zip` for the umbrella controller.
+## Framework and law names
+- Use `ISO/IEC 42001`
+- Use `NIST AI RMF`
+- Use `NIST AI 600-1`
+- Use `EU AI Act`
+- Use `Colorado AI Act`
+- Use `MITRE ATLAS`
+- Use `OWASP Agentic AI`
+
+## Language standards
+- Prefer operator-grade, workflow-first wording.
+- Avoid clipped openers, scaffold filler, and vague marketing language.
