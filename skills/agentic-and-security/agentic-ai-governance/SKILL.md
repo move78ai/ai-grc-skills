@@ -1,15 +1,22 @@
 ---
 name: agentic-ai-governance
-description: comprehensive workflow skill for governing agentic ai deployments using the singapore imda model ai governance framework for agentic ai and complementary ai risk management practices. use when chatgpt needs to assess agent use-case suitability, define bounded autonomy and permissions, allocate accountability across the agent lifecycle, design human oversight checkpoints, plan pre-deployment testing, structure phased rollout and monitoring, prepare end-user responsibility materials, evaluate residual risk, or produce board-ready governance artifacts for cisos, chief risk officers, legal counsel, product leaders, and deployment teams.
+description: "Workflow-first guidance for agent suitability, bounded autonomy, accountability, oversight, and phased rollout decisions."
 ---
 
 # Agentic AI Governance
 
 Use this skill to turn agentic-ai governance questions into working artifacts, not summaries.
 
-Default audience: executive-operating level stakeholders such as the ciso, chief risk officer, legal counsel, product owner, and deployment lead.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready outputs, explicit owner assignments, concrete evidence requirements, and residual-risk statements.
+
+
+
+
+Default audience: CISOs, Chief Risk Officers, legal counsel, product owners, governance leads, and deployment teams responsible for agentic systems.
+
+Default style: Decision-ready, evidence-aware, and explicit about autonomy limits, human checkpoints, and residual-risk ownership.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

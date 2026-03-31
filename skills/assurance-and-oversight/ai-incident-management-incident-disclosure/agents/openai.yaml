@@ -1,5 +1,6 @@
 version: 1
 name: ai-incident-management-incident-disclosure
-display_name: "AI Incident Management / Incident Disclosure"
-description: "Workflow-first ai incident management and incident disclosure support. use when chatgpt needs to design or review ai incident response programs, classify ai incidents, triage."
+description: "Workflow-first incident guidance for AI triage, disclosure decisions, and after-action work."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "AI Incident Management / Incident Disclosure"

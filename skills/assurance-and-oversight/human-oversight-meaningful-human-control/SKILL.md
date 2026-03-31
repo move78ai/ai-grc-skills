@@ -1,15 +1,22 @@
 ---
 name: human-oversight-meaningful-human-control
-description: comprehensive workflow skill for designing, assessing, and evidencing human oversight and meaningful human control for ai systems, including agentic ai, high-risk or high-impact ai, and consequential decision systems. use when chatgpt needs to determine the right oversight mode, assign reviewer and approver roles, design approval and override checkpoints, build escalation and appeal workflows, define operator competency requirements, run a structured oversight gap analysis, or prepare board-ready oversight artifacts for cisos, chief risk officers, legal counsel, compliance teams, product owners, and deployment teams.
+description: "Operator-grade oversight guidance for checkpoint design, overrides, appeals, reviewer roles, and oversight effectiveness."
 ---
 
 # Human Oversight / Meaningful Human Control
 
 Use this skill to turn human-oversight questions into working artifacts, not summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, compliance lead, product owner, risk committee, and operational reviewers.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready outputs, clear reviewer and approver assignments, evidence requirements, override criteria, and measurable effectiveness indicators.
+
+
+
+
+Default audience: Compliance teams, risk committees, product owners, operational reviewers, legal counsel, and governance leads designing human control over AI systems.
+
+Default style: Decision-ready, role-specific, and explicit about approval gates, reviewer authority, and measurable oversight outcomes.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

@@ -1,6 +1,6 @@
 ---
 name: tevv-ai-assurance-pre-deployment-testing
-description: workflow-first ai assurance support for testing, evaluation, verification, validation, and pre-deployment approval. use when chatgpt needs to design or review tevv programs, draft pre-deployment test plans, define metrics and pass-fail thresholds, build go-no-go packages, assess model or system readiness, set retest triggers, or convert nist ai rmf and nist ai 600-1 expectations into concrete assurance artifacts for ciso, cro, legal, audit, compliance, product, or engineering stakeholders.
+description: "Workflow-first TEVV support for assurance programs, test plans, metrics, release gates, and retest triggers."
 ---
 
 # TEVV / AI Assurance / Pre-Deployment Testing
@@ -8,6 +8,15 @@ description: workflow-first ai assurance support for testing, evaluation, verifi
 ## Overview
 
 Use this skill to turn AI assurance expectations into concrete operator artifacts. Focus on evidence, decision gates, test coverage, residual risk, and repeatable release or deployment approval.
+
+
+
+
+Default audience: Assurance teams, product owners, engineering leads, legal counsel, compliance, audit, and risk reviewers evaluating AI system readiness.
+
+Default style: Evidence-heavy, decision-gated, and explicit about test coverage, pass-fail thresholds, and accountable approvers.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

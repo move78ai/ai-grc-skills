@@ -1,6 +1,6 @@
 ---
 name: south-korea-high-impact-ai-readiness
-description: use this skill when chatgpt needs to help with south korea ai basic act readiness work, including high-impact ai screening, ai transparency and genai labeling analysis, risk management planning, explanation feasibility, user protection measures, human supervision design, impact assessment drafting, domestic representative readiness, and evidence-pack preparation for ciso, chief risk, legal, compliance, policy, or product teams operating ai systems that affect the republic of korea market or users.
+description: "Workflow-first South Korea AI Basic Act readiness support for high-impact screening, labeling, operator controls, and evidence packs."
 ---
 
 # South Korea High-Impact AI Readiness
@@ -10,6 +10,15 @@ description: use this skill when chatgpt needs to help with south korea ai basic
 Use this skill to convert South Korea's AI Basic Act and related MSIT implementation materials into operator-grade readiness artifacts. Treat the Act as a workflow driver, not a tutorial subject. Every response should end in concrete evidence artifacts that a CISO, Chief Risk Officer, legal counsel, or product governance lead can review, approve, and operate.
 
 This is a public-distribution skill. Use concise derivative tables, original templates, and workflow logic. Do not provide Korean legal advice, certainty on classification, or guarantees of compliance. Where presidential decree details or agency guidance may evolve, identify the open variable and draft the artifact so it can be updated cleanly.
+
+
+
+
+Default audience: Legal, policy, compliance, product, and risk teams operating AI systems that may affect South Korea users or markets.
+
+Default style: Implementation-led, explicit about decree-sensitive variables, and focused on retained evidence and operating controls.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow Decision Tree
 
@@ -275,4 +284,4 @@ python scripts/control_lookup.py --artifact impact_assessment
 - Make outputs detailed, comprehensive, and actionable.
 - Default to crisp professional language suitable for CISO, CRO, legal counsel, and governance leaders.
 - Always identify the minimum evidence pack needed to defend a decision.
-- Where legal specificity depends on later decree or guideline detail, say so plainly and draft the artifact with update placeholders rather than omitting the control entirely.
+- Where legal specificity depends on later decree or guideline detail, say so plainly and draft the artifact with update hooks rather than omitting the control entirely.

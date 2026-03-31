@@ -1,5 +1,6 @@
 version: 1
 name: nist-ai-rmf-governance
-display_name: "NIST AI RMF Governance"
-description: "'use this skill when chatgpt needs to help with nist ai risk management framework work, including ai risk framing, trustworthy ai analysis, ai rmf gap analysis, profile drafting."
+description: "Workflow-first NIST AI RMF guidance for gap analysis, profiles, and crosswalk work."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "NIST AI RMF Governance"

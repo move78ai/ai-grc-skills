@@ -1,15 +1,22 @@
 ---
 name: financial-services-ai-risk-management-framework
-description: comprehensive workflow skill for applying the financial services ai risk management framework in banks, insurers, payment providers, fintechs, market infrastructure firms, consumer-finance organizations, and regulated financial institutions. use when chatgpt needs to classify ai adoption stage, map financial-services ai use cases to control objectives, build a control implementation register, draft evidence requests, run a maturity or gap assessment, prepare internal review or exam-readiness artifacts, or produce executive decision materials for ciso, chief risk officer, legal counsel, model risk, compliance, audit, data governance, and board stakeholders.
+description: "Sector-specific AI governance workflows for financial institutions, control mapping, evidence planning, and exam readiness."
 ---
 
 # Financial Services AI Risk Management Framework
 
 Use this skill to produce working financial-services AI governance artifacts, not generic summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, model risk, compliance, internal audit, operational risk, data governance, procurement, product risk, and executive oversight teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer evidence-backed outputs, named owners, control mappings, approval conditions, and exam-ready documentation.
+
+
+
+
+Default audience: Model-risk teams, operational-risk leads, compliance, internal audit, legal counsel, data governance, and executive reviewers in financial services.
+
+Default style: Control-focused, evidence-backed, and explicit about regulated-institution ownership, exam readiness, and approval conditions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

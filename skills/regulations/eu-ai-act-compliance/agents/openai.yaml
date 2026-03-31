@@ -1,5 +1,6 @@
 version: 1
 name: eu-ai-act-compliance
-display_name: "EU AI Act Compliance"
-description: "'use this skill when chatgpt needs to help with eu ai act compliance work, including scope checks, prohibited-practice screening, high-risk classification, provider or deployer."
+description: "Workflow-first EU AI Act support for scope screening, high-risk analysis, and evidence planning."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "EU AI Act Compliance"

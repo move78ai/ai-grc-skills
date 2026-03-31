@@ -1,6 +1,6 @@
 ---
 name: eu-ai-act-compliance
-description: "use this skill when chatgpt needs to help with eu ai act compliance work, including scope checks, prohibited-practice screening, high-risk classification, provider or deployer gap analysis, fundamental-rights impact assessments, technical-documentation drafting, transparency notices, gpai readiness, post-market monitoring, sandbox planning, and crosswalks to iso/iec 42001 or nist ai rmf. use it for public-sector and private-sector teams, including organizations outside the eu whose ai outputs are used in the union."
+description: "Workflow-first EU AI Act support for scope screening, high-risk analysis, FRIA work, GPAI readiness, and evidence planning."
 ---
 
 # EU AI Act Compliance
@@ -8,6 +8,15 @@ description: "use this skill when chatgpt needs to help with eu ai act complianc
 ## Overview
 
 Use this skill to produce implementation-grade outputs for the EU AI Act grounded in Regulation (EU) 2024/1689. The skill is designed for public distribution and thought leadership. Work from article numbers, annex references, concise paraphrases, and bundled derivative tables and templates. Do not present the skill as legal advice and do not imply that any template or crosswalk guarantees legal compliance.
+
+
+
+
+Default audience: Legal counsel, compliance teams, product owners, risk leads, public-sector reviewers, and operators dealing with EU-facing AI systems.
+
+Default style: Article-aware, role-specific, and explicit about scope, operator obligations, artifacts, and open legal questions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow Decision Tree
 

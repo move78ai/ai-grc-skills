@@ -1,15 +1,22 @@
 ---
 name: ai-board-reporting-executive-oversight
-description: comprehensive workflow skill for turning ai governance, risk, compliance, incident, supplier, and assurance information into board-ready reporting and executive oversight artifacts. use when chatgpt needs to build a quarterly ai governance pack, executive dashboard, top-risk register, residual-risk acceptance memo, exception or waiver memo, management action tracker, incident board briefing, regulatory exposure summary, or portfolio heatmap for cisos, chief risk officers, legal counsel, compliance leaders, executive committees, and boards.
+description: "Workflow-first executive-reporting support for board packs, dashboards, top-risk views, and residual-risk decisions."
 ---
 
 # AI Board Reporting / Executive Oversight
 
 Use this skill to produce decision-ready executive and board artifacts, not educational summaries.
 
-Default audience: board directors, audit and risk committees, executive committees, ciso, chief risk officer, legal counsel, compliance lead, and senior management.
 
-Default style: detailed, comprehensive, and actionable. Prefer crisp executive framing, portfolio-level views, explicit decisions, risk tolerance language, named owners, deadlines, and evidence requirements.
+
+
+
+
+Default audience: Board directors, audit and risk committees, executive committees, CISOs, Chief Risk Officers, legal counsel, and senior management teams.
+
+Default style: Concise, decision-focused, and explicit about portfolio exposure, management actions, and approvals sought.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

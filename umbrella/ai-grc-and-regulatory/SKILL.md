@@ -1,15 +1,22 @@
 ---
 name: ai-grc-and-regulatory
-description: comprehensive umbrella skill for ai grc, regulatory, assurance, supplier, provenance, agentic, security, and threat-informed workflows. use when chatgpt needs one unified entry point to classify an ai governance or compliance task, route it to the right workflow family, build decision-ready artifacts, normalize outputs across frameworks and jurisdictions, or combine governance, security, incident, testing, supplier, inventory, and executive oversight work into one consistent operator experience for ciso, cro, legal, compliance, audit, product, and executive stakeholders.
+description: "Workflow-first router for AI GRC tasks that classifies the request, routes it to the right skill family, and returns decision-ready outputs."
 ---
 
 # AI GRC and Regulatory
 
 Use this skill as the umbrella entry point for the broader AI GRC skill library. Its job is to classify the user's task, route the work into the right workflow family, and return outputs in one consistent operator style.
 
-Default audience: ciso, chief risk officer, legal counsel, compliance, audit, product governance, security, procurement, trust and safety, and executive oversight teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer artifacts, evidence, named owners, decision labels, and review points over narrative explanation.
+
+
+
+
+Default audience: CISOs, Chief Risk Officers, legal counsel, compliance teams, audit leads, procurement owners, and product-governance operators.
+
+Default style: Operator-grade, workflow-first, and explicit about scope, ownership, evidence, and decision gates.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

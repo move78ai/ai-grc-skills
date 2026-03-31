@@ -1,5 +1,6 @@
 version: 1
 name: human-oversight-meaningful-human-control
-display_name: "Human Oversight / Meaningful Human Control"
-description: "Comprehensive workflow skill for designing, assessing, and evidencing human oversight and meaningful human control for ai systems, including agentic ai, high-risk or high-impact."
+description: "Operator-grade oversight guidance for checkpoints, overrides, and oversight effectiveness."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "Human Oversight / Meaningful Human Control"

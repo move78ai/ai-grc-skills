@@ -1,15 +1,22 @@
 ---
 name: mitre-atlas-ai-security
-description: comprehensive workflow skill for threat modeling, threat-informed review, and ai-security planning using mitre atlas for ai-enabled systems. use when chatgpt needs to profile an ai system, identify the most relevant mitre atlas tactics and attack paths, build a threat model register, plan mitigations and detections, structure red-team or purple-team exercises, prepare monitoring and incident hypotheses, run an ai-security gap assessment, or produce executive, ciso, legal, assurance, or residual-risk outputs for ai applications, agents, model-serving systems, genai platforms, and third-party ai services.
+description: "Workflow-first MITRE ATLAS support for AI threat models, attack scenarios, mitigations, detections, and exercise planning."
 ---
 
 # MITRE ATLAS AI Security
 
 Use this skill to turn MITRE ATLAS-style threat analysis into working AI-security artifacts, not summaries.
 
-Default audience: ciso, security architecture, ai platform engineering, red team, purple team, chief risk officer, legal counsel, assurance, incident response, and third-party risk teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer tactic selection, scenario design, evidence requirements, detection hypotheses, named owners, and decision-ready outputs over narrative explanation.
+
+
+
+
+Default audience: Security teams, red and purple teams, assurance reviewers, platform engineers, and risk owners working on AI-enabled systems.
+
+Default style: Threat-informed, scenario-driven, and explicit about tactics, detections, owners, and residual-risk positions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

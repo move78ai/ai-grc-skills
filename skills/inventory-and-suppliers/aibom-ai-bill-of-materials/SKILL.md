@@ -1,11 +1,20 @@
 ---
 name: aibom-ai-bill-of-materials
-description: create and maintain ai bills of materials for ai systems, models, agents, datasets, providers, tools, and dependencies. use when chatgpt needs to inventory ai components, document provenance and versioning, map third-party and open-source dependencies, track changes and exposure, prepare supplier evidence requests, or generate executive-ready aibom summaries for governance, security, procurement, or audit workflows.
+description: "Operator-grade AIBOM workflows for component inventories, provenance, dependency mapping, version tracking, and supplier evidence requests."
 ---
 
 # AIBOM / AI Bill of Materials
 
 Use this skill to create a structured AI Bill of Materials for a single AI system, an AI portfolio, or a supplier-provided AI capability.
+
+
+
+
+Default audience: Governance, security, procurement, audit, platform, and supplier-risk teams documenting AI system components and dependencies.
+
+Default style: Inventory-first, dependency-aware, and explicit about provenance, update history, and evidence gaps.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

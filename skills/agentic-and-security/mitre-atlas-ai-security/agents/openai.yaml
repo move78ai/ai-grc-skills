@@ -1,5 +1,6 @@
 version: 1
 name: mitre-atlas-ai-security
-display_name: "MITRE ATLAS AI Security"
-description: "Comprehensive workflow skill for threat modeling, threat-informed review, and ai-security planning using mitre atlas for ai-enabled systems. use when chatgpt needs to profile an."
+description: "Workflow-first MITRE ATLAS support for AI threat models and detection planning."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "MITRE ATLAS AI Security"

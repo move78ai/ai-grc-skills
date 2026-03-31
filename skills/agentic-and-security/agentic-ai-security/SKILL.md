@@ -1,6 +1,6 @@
 ---
 name: agentic-ai-security
-description: comprehensive workflow skill for securing agentic ai applications using owasp top 10 for agentic applications 2026 as the primary threat taxonomy, with nist cyber ai profile and nist genai security concepts as complementary operating anchors. use when chatgpt needs to build agent threat models, assess least-agency boundaries, design tool and privilege controls, review memory and context risks, evaluate insecure inter-agent communication, harden supply chains and dependencies, plan observability and incident response, run agentic security gap analysis, or produce evidence-oriented security artifacts for cisos, chief risk officers, legal counsel, security architects, red teams, and engineering leads.
+description: "Operator-grade security guidance for agentic threat models, least agency, memory risks, dependencies, and monitoring."
 ---
 
 # Agentic AI Security
@@ -9,9 +9,16 @@ description: comprehensive workflow skill for securing agentic ai applications u
 
 Use this skill to turn agentic-ai security questions into implementation-grade artifacts, not tutorials. Treat the OWASP Top 10 for Agentic Applications 2026 as the primary threat taxonomy, then use the NIST Cyber AI Profile and NIST GenAI security concepts to structure control priorities, monitoring expectations, and incident handling.
 
-Default audience: ciso, chief risk officer, legal counsel, security architect, red team lead, platform owner, and engineering lead.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready outputs, explicit threat assumptions, evidence artifacts, control owners, logging requirements, and deployment conditions.
+
+
+
+
+Default audience: Security architects, red teams, platform engineers, risk owners, legal counsel, and engineering leads securing agentic applications.
+
+Default style: Threat-aware, deployment-focused, and explicit about control boundaries, evidence, and approval conditions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

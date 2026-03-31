@@ -1,15 +1,22 @@
 ---
 name: owasp-agentic-ai-mapping-to-iso-42001
-description: comprehensive workflow skill for mapping owasp agentic ai top 10 findings to iso/iec 42001 clauses, annex a controls, evidence requirements, and implementation actions. use when chatgpt needs to translate asi01-asi10 risks into ai management system controls, build a mapped control tracker, run an agentic-security gap assessment against iso 42001, prepare evidence requests, add an optional owasp llm top 10 overlay, or produce executive, audit, supplier, or residual-risk decision artifacts for ciso, chief risk officer, legal counsel, security, governance, and assurance teams.
+description: "Workflow-first mapping support that turns OWASP Agentic AI findings into ISO/IEC 42001 control, evidence, and remediation views."
 ---
 
 # OWASP Agentic AI Mapping to ISO 42001
 
 Use this skill to turn OWASP Agentic AI Top 10 findings into working ISO 42001 implementation artifacts.
 
-Default audience: ciso, chief risk officer, legal counsel, governance lead, security architecture, assurance, internal audit, third-party risk, and agent platform owners.
 
-Default style: detailed, comprehensive, and actionable. Prefer derivative control mappings, named owners, evidence language, implementation actions, and approval-ready outputs over narrative explanation.
+
+
+
+
+Default audience: Security, governance, assurance, audit, and supplier-risk teams working through agentic AI findings against an ISO/IEC 42001 baseline.
+
+Default style: Mapping-driven, evidence-aware, and explicit about what each finding means for control selection and remediation.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

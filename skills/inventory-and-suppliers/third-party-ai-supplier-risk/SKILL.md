@@ -1,15 +1,22 @@
 ---
 name: third-party-ai-supplier-risk
-description: comprehensive workflow skill for assessing, approving, contracting, monitoring, and offboarding third-party ai providers, foundation models, datasets, APIs, embedded ai components, and ai-enabled service suppliers. use when chatgpt needs to run supplier due diligence, build an approved-provider register, request missing evidence, score vendor risk, draft ai-specific contract and sla controls, design fallback and exit plans, monitor third-party ai trustworthiness over time, or perform a structured supplier-risk gap analysis for ciso, chief risk officer, legal counsel, procurement, compliance, security, and platform teams.
+description: "Workflow-first supplier-risk guidance for due diligence, evidence requests, contract controls, monitoring, and fallback planning."
 ---
 
 # Third-Party AI / Supplier Risk
 
 Use this skill to turn vendor, model, API, and supplier-risk questions into working artifacts, not summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, procurement, compliance, security, platform engineering, data governance, and operational owners.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready outputs, named owners, evidence requests, contract terms, monitoring requirements, and contingency plans.
+
+
+
+
+Default audience: Procurement leads, legal counsel, compliance teams, security reviewers, platform owners, and risk operators approving or monitoring AI suppliers.
+
+Default style: Decision-ready, evidence-first, and explicit about approval conditions, contract terms, and ongoing monitoring duties.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

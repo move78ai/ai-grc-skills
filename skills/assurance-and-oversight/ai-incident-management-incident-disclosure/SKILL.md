@@ -1,6 +1,6 @@
 ---
 name: ai-incident-management-incident-disclosure
-description: workflow-first ai incident management and incident disclosure support. use when chatgpt needs to design or review ai incident response programs, classify ai incidents, triage severity, assign escalation paths, build disclosure decision records, prepare stakeholder notice drafts, run after-action reviews, track near-misses and harmful impacts, or convert nist ai rmf, nist ai 600-1, and adjacent governance expectations into concrete incident artifacts for ciso, cro, legal, audit, compliance, product, or engineering stakeholders.
+description: "Workflow-first incident guidance for AI triage, containment, disclosure decisions, evidence preservation, and after-action work."
 ---
 
 # AI Incident Management / Incident Disclosure
@@ -8,6 +8,15 @@ description: workflow-first ai incident management and incident disclosure suppo
 ## Overview
 
 Use this skill to turn incident response expectations into concrete operator artifacts. Focus on detection, classification, containment, escalation, disclosure, recovery, evidence preservation, and lessons learned.
+
+
+
+
+Default audience: Incident-response leads, legal counsel, compliance teams, product owners, security teams, and governance operators handling AI incidents.
+
+Default style: Fact-first, escalation-aware, and explicit about severity, disclosure logic, owners, and unresolved questions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

@@ -1,5 +1,6 @@
 version: 1
 name: aibom-ai-bill-of-materials
-display_name: "AIBOM / AI Bill of Materials"
-description: "Create and maintain ai bills of materials for ai systems, models, agents, datasets, providers, tools, and dependencies. use when chatgpt needs to inventory ai components."
+description: "Operator-grade AIBOM workflows for component inventories and provenance tracking."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "AIBOM / AI Bill of Materials"

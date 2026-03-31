@@ -1,15 +1,22 @@
 ---
 name: ai-system-inventory-shadow-ai-discovery
-description: comprehensive workflow skill for building and operating an ai system inventory and shadow ai discovery program using nist ai rmf governance and inventory practices, iso 42001 scoping and lifecycle concepts, and practical enterprise discovery methods. use when chatgpt needs to inventory sanctioned and unsanctioned ai systems, classify ai tools and use cases, map owners and accountability, document data and third-party dependencies, tier risk, design discovery workflows, evaluate shadow ai exposure, prepare remediation and attestation plans, or produce executive-ready inventory governance artifacts for cisos, chief risk officers, legal counsel, compliance leaders, privacy teams, and security architecture teams.
+description: "Workflow-first inventory support for sanctioned and unsanctioned AI systems, ownership mapping, dependency capture, and risk tiering."
 ---
 
 # AI System Inventory Shadow AI Discovery
 
 Use this skill to turn AI inventory and shadow-AI questions into working governance artifacts, not summaries.
 
-Default audience: executive-operating stakeholders such as the ciso, chief risk officer, legal counsel, compliance lead, privacy lead, enterprise architect, procurement lead, and IT operations owner.
 
-Default style: detailed, comprehensive, and actionable. Prefer evidence-ready outputs, named owners, explicit assumptions, decision thresholds, and remediation tracking.
+
+
+
+
+Default audience: Enterprise architects, compliance leads, security teams, IT operations, procurement owners, and risk operators responsible for AI inventory accuracy.
+
+Default style: Evidence-led, operational, and explicit about discovery methods, ownership, dependencies, and remediation priorities.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

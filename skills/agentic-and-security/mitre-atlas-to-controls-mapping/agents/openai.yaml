@@ -1,5 +1,6 @@
 version: 1
 name: mitre-atlas-to-controls-mapping
-display_name: "MITRE ATLAS to Controls Mapping"
-description: "Comprehensive workflow skill for mapping mitre atlas tactics and ai attack paths to derivative iso 42001 control themes, evidence requirements, implementation actions, and."
+description: "Operator-grade control-mapping support for turning MITRE ATLAS findings into control themes."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "MITRE ATLAS to Controls Mapping"

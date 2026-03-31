@@ -1,0 +1,6 @@
+version: 1
+name: ai-grc-and-regulatory
+description: "Workflow-first router for AI GRC tasks that routes work to the right skill family."
+instructions_file: ../SKILL.md
+interface:
+  display_name: "AI GRC and Regulatory"

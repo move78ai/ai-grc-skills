@@ -1,6 +1,6 @@
 ---
 name: nist-ai-rmf-governance
-description: "use this skill when chatgpt needs to help with nist ai risk management framework work, including ai risk framing, trustworthy ai analysis, ai rmf gap analysis, profile drafting, tevv planning, genai risk reviews, cyber-ai cybersecurity prioritization, ai inventory design, incident readiness, and crosswalks to iso/iec 42001, the eu ai act, or nist csf 2.0. use it for teams designing, developing, deploying, acquiring, evaluating, or governing ai systems."
+description: "Workflow-first NIST AI RMF guidance for gap analysis, profiles, TEVV planning, GenAI screening, and crosswalk work."
 ---
 
 # NIST AI RMF Governance
@@ -10,6 +10,15 @@ description: "use this skill when chatgpt needs to help with nist ai risk manage
 Use this skill to produce implementation-grade outputs grounded in the NIST AI Risk Management Framework (AI RMF 1.0), the NIST AI RMF Playbook, the NIST Generative AI Profile, and the NIST Cyber AI Profile. Treat the AI RMF as the primary organizing framework, use the GenAI Profile when the system is generative, and use the Cyber AI Profile when the task is specifically about AI-related cybersecurity outcomes.
 
 This is a public-distribution skill. Work from NIST function names, subcategory IDs, trustworthiness characteristics, concise paraphrases, and bundled derivative tables and templates. Do not present the skill as legal advice, certification advice, or as a guarantee that following the framework will eliminate risk.
+
+
+
+
+Default audience: Governance leads, product-risk teams, compliance teams, assurance reviewers, security stakeholders, and AI program owners.
+
+Default style: Risk-based, operator-grade, and structured around system context, trustworthiness, evidence, and treatment decisions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow Decision Tree
 

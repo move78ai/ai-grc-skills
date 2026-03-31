@@ -1,5 +1,6 @@
 version: 1
 name: ai-board-reporting-executive-oversight
-display_name: "AI Board Reporting / Executive Oversight"
-description: "Comprehensive workflow skill for turning ai governance, risk, compliance, incident, supplier, and assurance information into board-ready reporting and executive oversight."
+description: "Workflow-first executive-reporting support for board packs, dashboards, and residual-risk decisions."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "AI Board Reporting / Executive Oversight"

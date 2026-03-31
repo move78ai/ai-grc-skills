@@ -1,15 +1,22 @@
 ---
 name: mit-ai-governance-mapping
-description: comprehensive workflow skill for mapping ai governance documents, frameworks, laws, standards, and guidance using the mit ai governance mapping project as the primary public anchor. use when chatgpt needs to classify a governance document or portfolio by risk-domain coverage, sector, lifecycle stage, actor roles, legislative status, technical scope, or jurisdiction; identify governance gaps and blind spots; compare document sets; prepare executive, policy, research, or program-priority outputs; or turn fragmented governance material into decision-ready mapping artifacts.
+description: "Operator-grade governance-mapping support for comparing laws, standards, frameworks, and guidance through a single coverage lens."
 ---
 
 # MIT AI Governance Mapping
 
 Use this skill to convert governance landscape questions into working mapping artifacts, not summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, policy lead, standards lead, trust and safety lead, research lead, audit, and executive stakeholders.
 
-Default style: detailed, comprehensive, and actionable. Prefer portfolio views, gap logic, decision memos, explicit assumptions, and next-step routing.
+
+
+
+
+Default audience: Policy leads, standards teams, legal counsel, governance operators, research teams, and executive stakeholders comparing governance material.
+
+Default style: Mapping-first, portfolio-aware, and explicit about coverage gaps, blind spots, and next-step routing.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

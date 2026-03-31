@@ -1,6 +1,6 @@
 ---
 name: nist-ai-600-1-genai-risk-management
-description: use this skill when chatgpt needs to help with nist ai 600-1 generative ai profile work, including genai risk screening, profile-based gap analysis, content provenance planning, pre-deployment testing, supplier and value-chain review, incident disclosure planning, stakeholder feedback and recourse design, and evidence-pack drafting for ciso, chief risk, legal, compliance, or governance teams evaluating or operating generative ai systems.
+description: "Operator-grade NIST AI 600-1 workflows for GenAI risk review, provenance planning, supplier checks, and incident readiness."
 ---
 
 # NIST AI 600-1 GenAI Risk Management
@@ -10,6 +10,15 @@ description: use this skill when chatgpt needs to help with nist ai 600-1 genera
 Use this skill to produce implementation-grade outputs grounded in NIST AI 600-1, the NIST AI RMF 1.0, and the AI RMF Playbook. Treat NIST AI 600-1 as the GenAI-specific profile, use the AI RMF core as the control structure behind the work, and convert every analysis into evidence-oriented artifacts that a CISO, Chief Risk Officer, legal counsel, or governance lead can review and act on.
 
 This is a public-distribution skill. Work from NIST function names, subcategory IDs, concise derivative tables, and bundled templates. Do not present the skill as legal advice, certification advice, or a guarantee that following the profile eliminates risk.
+
+
+
+
+Default audience: Governance leads, legal counsel, assurance teams, product owners, and risk teams responsible for generative AI use cases.
+
+Default style: Workflow-first, risk-specific, and explicit about GenAI failure modes, evidence, and release decisions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow Decision Tree
 

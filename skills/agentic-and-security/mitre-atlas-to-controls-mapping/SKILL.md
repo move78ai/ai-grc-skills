@@ -1,15 +1,22 @@
 ---
 name: mitre-atlas-to-controls-mapping
-description: comprehensive workflow skill for mapping mitre atlas tactics and ai attack paths to derivative iso 42001 control themes, evidence requirements, implementation actions, and decision outputs. use when chatgpt needs to convert atlas-informed threat findings into control plans, identify which iso 42001 clauses and annex a controls are most relevant, build a crosswalk tracker, run a controls gap assessment, prepare evidence requests, route work into tevv, supplier-risk, incident, governance, or board workflows, or produce executive-ready ai-security control summaries for ciso, cro, legal, assurance, engineering, and audit teams.
+description: "Operator-grade control-mapping support that turns MITRE ATLAS findings into control themes, evidence needs, and owner actions."
 ---
 
 # MITRE ATLAS to Controls Mapping
 
 Use this skill to turn MITRE ATLAS threat findings into working control artifacts, not generic commentary.
 
-Default audience: ciso, security architecture, ai platform engineering, governance, assurance, chief risk officer, legal counsel, audit, and third-party risk teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer control themes, evidence, implementation actions, named owners, routing decisions, and decision-ready outputs over narrative explanation.
+
+
+
+
+Default audience: Security architects, governance leads, assurance teams, auditors, and engineering owners turning threats into implementation work.
+
+Default style: Controls-focused, evidence-aware, and explicit about owners, mapping strength, and residual decisions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

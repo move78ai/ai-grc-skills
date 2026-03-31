@@ -1,15 +1,22 @@
 ---
 name: colorado-ai-act-impact-assessment
-description: workflow-first skill for colorado ai act compliance and impact assessment under sb24-205 as amended by sb25b-004. use when chatgpt needs to determine whether an ai system is likely high-risk, screen consequential-decision use cases, prepare deployer impact assessments, draft risk management policy components, prepare consumer notices and adverse-decision explanations, structure developer documentation requests, manage annual reviews and incident notices, or build evidence packs for ciso, chief risk officer, legal counsel, compliance, and product teams.
+description: "Operator-grade Colorado AI Act workflows for high-risk screening, deployer impact assessments, notices, and retained evidence."
 ---
 
 # Colorado AI Act Impact Assessment
 
 Use this skill to produce operational compliance artifacts for the Colorado AI Act, not legal summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, compliance lead, privacy lead, product owner, and control owners responsible for consequential-decision systems.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready outputs, clear assumptions, named owners, evidence requirements, and documentation that could be retained for regulator review.
+
+
+
+
+Default audience: Legal counsel, compliance teams, product owners, privacy leads, and risk operators working on consequential-decision systems.
+
+Default style: Workflow-first, role-aware, and explicit about in-scope use cases, evidence, notices, and review cadence.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

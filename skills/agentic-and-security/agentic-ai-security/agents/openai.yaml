@@ -1,5 +1,6 @@
 version: 1
 name: agentic-ai-security
-display_name: "Agentic AI Security"
-description: "Comprehensive workflow skill for securing agentic ai applications using owasp top 10 for agentic applications 2026 as the primary threat taxonomy, with nist cyber ai profile and."
+description: "Operator-grade security guidance for agentic threat models and least-agency controls."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "Agentic AI Security"

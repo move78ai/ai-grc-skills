@@ -1,5 +1,6 @@
 version: 1
 name: mit-ai-risk-repository
-display_name: "MIT AI Risk Repository"
-description: "Comprehensive workflow skill for using the mit ai risk repository as a practical risk identification, classification, prioritization, and mitigation-planning tool for ai systems."
+description: "Workflow-first MIT AI Risk Repository guidance for risk classification and mitigation planning."
 instructions_file: ../SKILL.md
+interface:
+  display_name: "MIT AI Risk Repository"

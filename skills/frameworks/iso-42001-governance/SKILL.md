@@ -1,6 +1,6 @@
 ---
 name: iso-42001-governance
-description: "use this skill when chatgpt needs to help with iso/iec 42001 ai management systems, including aims scoping, self-assessment, gap analysis, statement of applicability drafting, ai policy drafting, ai system impact assessments, governance design, internal audit readiness, and crosswalks to nist ai rmf or the eu ai act. use it for both organizations building an ai management system and teams trying to align existing ai governance artifacts to iso 42001, iso 22989, and iso 38507."
+description: "Operator-grade ISO/IEC 42001 workflows for scoping, gap analysis, SoA drafting, policy design, and evidence planning."
 ---
 
 # ISO/IEC 42001 Governance
@@ -10,6 +10,15 @@ description: "use this skill when chatgpt needs to help with iso/iec 42001 ai ma
 Use this skill to produce management-grade outputs for AI governance work grounded in ISO/IEC 42001 as the primary management-system framework, ISO/IEC 22989 for terminology, stakeholder roles, trustworthiness concepts, and AI life-cycle structure, and ISO/IEC 38507 for governing-body oversight, accountability, decision-making, data use, compliance, culture, and risk.
 
 This is a public-distribution skill. Work from clause numbers, control identifiers, paraphrases, and bundled derivative tables. Do not reproduce long verbatim extracts from ISO standards.
+
+
+
+
+Default audience: AI governance leads, compliance teams, internal audit, risk owners, policy owners, and legal reviewers working on AI management systems.
+
+Default style: Evidence-led, clause-aware, and explicit about scope, role, control selection, and implementation artifacts.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow Decision Tree
 

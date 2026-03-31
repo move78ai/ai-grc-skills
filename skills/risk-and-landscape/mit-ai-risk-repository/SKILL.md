@@ -1,15 +1,22 @@
 ---
 name: mit-ai-risk-repository
-description: comprehensive workflow skill for using the mit ai risk repository as a practical risk identification, classification, prioritization, and mitigation-planning tool for ai systems, models, agents, data pipelines, and supplier-provided ai capabilities. use when chatgpt needs to classify ai risk exposure against mit's domain and causal taxonomies, build a risk register, prioritize risks for one use case or portfolio, prepare mitigation and evidence plans, run a scored gap assessment, route work into governance, security, supplier, transparency, or incident workflows, or produce executive-ready ai risk summaries for ciso, cro, legal, assurance, product, and audit stakeholders.
+description: "Workflow-first MIT AI Risk Repository guidance for risk classification, prioritization, mitigation planning, and executive summaries."
 ---
 
 # MIT AI Risk Repository
 
 Use this skill to turn MIT's AI Risk Repository into working risk-management artifacts, not summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, product risk, security, assurance, audit, procurement, data governance, model governance, and executive oversight teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready risk registers, mitigation plans, evidence requests, ownership assignments, and executive summaries over narrative explanation.
+
+
+
+
+Default audience: Product-risk teams, governance leads, audit, security, procurement, legal counsel, and executive reviewers prioritizing AI risk exposure.
+
+Default style: Taxonomy-aware, practical, and explicit about risk ownership, mitigation choices, and evidence gaps.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

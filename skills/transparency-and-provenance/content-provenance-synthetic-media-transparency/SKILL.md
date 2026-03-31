@@ -1,15 +1,22 @@
 ---
 name: content-provenance-synthetic-media-transparency
-description: workflow-first skill for designing, assessing, and operating content provenance and synthetic media transparency controls. use when chatgpt needs to classify media workflows, decide when provenance records or content credentials are needed, plan disclosure and labeling approaches, assess third-party provenance capability, design rollout and verification processes, prepare evidence and review artifacts, or produce executive-ready transparency outputs for ciso, chief risk officer, legal counsel, trust and safety, communications, marketing, security, product, and governance teams.
+description: "Workflow-first provenance and transparency guidance for media workflows, synthetic content labels, supplier checks, and rollout planning."
 ---
 
 # Content Provenance / Synthetic Media Transparency
 
 Use this skill to turn provenance and transparency questions into working governance artifacts, not summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, trust and safety, product, communications, security, marketing operations, procurement, and governance teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer decisions, owner assignments, evidence requirements, and rollout conditions.
+
+
+
+
+Default audience: Trust and safety leads, product teams, communications, marketing operations, legal counsel, security, and governance operators managing media workflows.
+
+Default style: Decision-led, rollout-aware, and explicit about disclosure triggers, credential choices, owners, and monitoring conditions.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 

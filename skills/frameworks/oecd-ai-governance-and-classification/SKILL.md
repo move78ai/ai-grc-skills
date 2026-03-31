@@ -1,15 +1,22 @@
 ---
 name: oecd-ai-governance-and-classification
-description: comprehensive workflow skill for classifying ai systems with the oecd framework, assessing governance needs across the ai lifecycle, and operationalizing the oecd ai principles into practical actions, evidence requests, inventory records, and executive-ready governance outputs. use when chatgpt needs to build or review an ai inventory, classify one system or portfolio slice, determine lifecycle-stage governance requirements, convert principle-level guidance into implementable controls, run a scored governance gap assessment, or prepare decision-ready outputs for risk, legal, compliance, audit, data governance, product, and executive stakeholders.
+description: "Workflow-first OECD AI classification and governance guidance for inventories, lifecycle review, and principle-to-action mapping."
 ---
 
 # OECD AI Governance and Classification
 
 Use this skill to turn OECD AI classification, lifecycle, and principles material into working governance artifacts, not summaries.
 
-Default audience: ciso, chief risk officer, legal counsel, compliance, audit, data governance, product governance, procurement, assurance, and executive oversight teams.
 
-Default style: detailed, comprehensive, and actionable. Prefer decision-ready classifications, inventory records, governance checklists, owner assignments, evidence requests, and executive summaries over narrative explanation.
+
+
+
+
+Default audience: Risk teams, legal counsel, compliance, audit, data governance, product governance, and executive reviewers.
+
+Default style: Classification-led, practical, and explicit about lifecycle stage, evidence, and governance action.
+
+Public repo note: This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
 
 ## Workflow decision tree
 
