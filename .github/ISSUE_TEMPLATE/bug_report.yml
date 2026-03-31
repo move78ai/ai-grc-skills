@@ -1,0 +1,65 @@
+name: Bug report
+description: Report a defect in repository content, metadata, templates, or automation.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for reproducible repository defects. Do not report security issues publicly.
+  - type: input
+    id: area
+    attributes:
+      label: Affected area
+      description: Name the file, folder, workflow, or skill path involved.
+      placeholder: skills/frameworks/iso-42001-governance/README.md
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Documentation or copy
+        - Metadata or YAML
+        - Broken link
+        - Workflow or automation
+        - Repository structure
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current behavior
+      description: State the defect plainly.
+      placeholder: The README opener is clipped and the related skill link is broken.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: State the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: List the steps needed to reproduce the problem.
+      placeholder: |
+        1. Open the file
+        2. Review the first paragraph
+        3. Follow the related link
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Evidence
+      description: Paste the relevant audit output, screenshots, or error text.
+      render: shell
+    validations:
+      required: false

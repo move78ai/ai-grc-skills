@@ -1,0 +1,48 @@
+name: Feature request
+description: Propose a scoped improvement to repository docs, metadata, templates, or automation.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for concrete repository improvements. Keep requests scoped and public-safe.
+  - type: input
+    id: area
+    attributes:
+      label: Target area
+      description: Name the file, folder, workflow, or skill path involved.
+      placeholder: .github/workflows/repo-audit.yml
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the current gap or friction.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed change
+      description: Describe the requested improvement in practical terms.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Expected value
+      description: State what this change would improve for maintainers or users.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checks
+      options:
+        - label: I checked that this request does not require adding raw standards text, private handoff files, source PDFs, or release ZIPs.
+          required: true
+        - label: I checked that this request does not require changing public skill slugs unless a real defect is identified.
+          required: true
