@@ -1,23 +1,38 @@
 # Human Oversight / Meaningful Human Control
 
 ## What this skill does
-Comprehensive workflow skill for designing, assessing, and evidencing human oversight and meaningful human control for ai systems, including agentic ai, high-risk or high-impact.
+Operator-grade oversight guidance for checkpoint design, overrides, appeals, reviewer roles, and oversight effectiveness.
 
-## When to use it
-Use this skill when you need a practical starting point for human oversight / meaningful human control work and want the reusable workflow instructions in `SKILL.md` rather than a one-off note or draft.
+## Who it is for
+- Teams choosing the right human oversight model for a system or decision flow.
+- Operators designing approval checkpoints, overrides, escalation paths, or appeals.
+- Reviewers who need evidence that oversight is real, not nominal.
 
-## What is included
-- `SKILL.md`
-- `README.md`
-- `agents/openai.yaml`
-- `scripts/`
-- `references/`
-- `assets/`
+## Use this skill when
+- You need to decide how much human control a system should retain.
+- You need checkpoint rules, override authority, or appeal logic.
+- You need competency, calibration, or oversight-effectiveness review structures.
+
+## Typical inputs
+- Decision context, automation level, affected users, and harm profile.
+- Reviewer roles, operator capabilities, escalation paths, and current controls.
+- Any adverse-outcome, complaint, or override history already available.
+
+## Typical outputs
+- Oversight plan, trigger matrix, or override log structure.
+- Appeal and recourse flow or operator-competency plan.
+- Oversight-effectiveness review with owner actions.
+
+## How it works
+- Choose the oversight mode before drafting approval or appeal steps.
+- Separate reviewer roles, escalation authority, and user recourse paths.
+- Measure oversight quality with actual triggers, logs, and outcomes.
 
 ## Related skills
-- `tevv-ai-assurance-pre-deployment-testing`
-- `ai-board-reporting-executive-oversight`
-- `eu-ai-act-compliance`
+- [Agentic AI Governance](../../agentic-and-security/agentic-ai-governance/)
+- [TEVV / AI Assurance / Pre-Deployment Testing](../tevv-ai-assurance-pre-deployment-testing/)
+- [Colorado AI Act Impact Assessment](../../regulations/colorado-ai-act-impact-assessment/)
 
-## Source and licensing note
-This folder is a normalized repository copy of the source material for the `assurance-and-oversight` domain. Check provenance and licensing before redistributing outside your approved workflow.
+## Notes / source boundaries
+- Meaningful human control requires authority, competence, and usable evidence, not just a sign-off line.
+- This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.

@@ -1,23 +1,38 @@
 # Financial Services AI Risk Management Framework
 
 ## What this skill does
-Comprehensive workflow skill for applying the financial services ai risk management framework in banks, insurers, payment providers, fintechs, market infrastructure firms.
+Sector-specific AI governance workflows for financial institutions, control mapping, evidence planning, and exam readiness.
 
-## When to use it
-Use this skill when you need a practical starting point for financial services ai risk management framework work and want the reusable workflow instructions in `SKILL.md` rather than a one-off note or draft.
+## Who it is for
+- Banks, insurers, payment providers, fintechs, and other regulated financial institutions.
+- Operators translating AI use cases into sector-specific control obligations and exam-ready artifacts.
+- Reviewers who need evidence plans, maturity views, or executive decision materials.
 
-## What is included
-- `SKILL.md`
-- `README.md`
-- `agents/openai.yaml`
-- `scripts/`
-- `references/`
-- `assets/`
+## Use this skill when
+- You need to classify an institution or use case against a financial-services AI control model.
+- You need a maturity review, control implementation register, or evidence request pack.
+- You need to prepare internal review or exam-readiness material.
+
+## Typical inputs
+- Institution type, use case, regulatory context, and key lines of business.
+- Current control posture, policies, testing evidence, and governance owners.
+- Known supervisory concerns, audit findings, or approval blockers.
+
+## Typical outputs
+- Control implementation register and evidence plan.
+- Maturity or gap assessment with prioritized actions.
+- Executive review memo or exam-readiness pack.
+
+## How it works
+- Classify the adoption stage and regulatory weight of the use case.
+- Map the use case into sector-specific control objectives and evidence.
+- Surface the shortest path to a defensible review or approval package.
 
 ## Related skills
-- `nist-ai-rmf-governance`
-- `eu-ai-act-compliance`
-- `third-party-ai-supplier-risk`
+- [ISO/IEC 42001 Governance](../iso-42001-governance/)
+- [Third-Party AI / Supplier Risk](../../inventory-and-suppliers/third-party-ai-supplier-risk/)
+- [NIST AI RMF Governance](../nist-ai-rmf-governance/)
 
-## Source and licensing note
-This folder is a normalized repository copy of the source material for the `frameworks` domain. Check provenance and licensing before redistributing outside your approved workflow.
+## Notes / source boundaries
+- Keep outputs specific to regulated financial institutions rather than generic enterprise AI advice.
+- This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.

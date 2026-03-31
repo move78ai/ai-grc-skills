@@ -1,23 +1,38 @@
 # NIST AI 600-1 GenAI Risk Management
 
 ## What this skill does
-Use this skill when chatgpt needs to help with nist ai 600-1 generative ai profile work, including genai risk screening, profile-based gap analysis, content provenance planning.
+Operator-grade NIST AI 600-1 workflows for GenAI risk review, provenance planning, supplier checks, and incident readiness.
 
-## When to use it
-Use this skill when you need a practical starting point for nist ai 600-1 genai risk management work and want the reusable workflow instructions in `SKILL.md` rather than a one-off note or draft.
+## Who it is for
+- Teams evaluating or operating generative AI systems.
+- Operators who need a concrete GenAI risk review instead of a generic AI checklist.
+- Reviewers connecting provenance, supplier, testing, and disclosure decisions in one package.
 
-## What is included
-- `SKILL.md`
-- `README.md`
-- `agents/openai.yaml`
-- `scripts/`
-- `references/`
-- `assets/`
+## Use this skill when
+- You need a GenAI-specific risk review or readiness assessment.
+- You need to plan provenance, transparency, or stakeholder notices for generated content.
+- You need supplier, value-chain, or pre-deployment review for a GenAI system.
+
+## Typical inputs
+- Model or application type, deployment context, and user population.
+- Data sensitivity, model sourcing, supplier dependencies, and content types.
+- Existing safeguards, testing evidence, or incident concerns.
+
+## Typical outputs
+- GenAI risk review with prioritized safeguards.
+- Provenance or transparency plan.
+- Supplier review, test plan, or go/no-go memo.
+
+## How it works
+- Classify where GenAI-specific risks really apply instead of over-generalizing.
+- Turn NIST guidance into concrete artifacts such as notices, plans, and logs.
+- End with release conditions, residual risks, and evidence requests.
 
 ## Related skills
-- `nist-ai-rmf-governance`
-- `agentic-ai-security`
-- `tevv-ai-assurance-pre-deployment-testing`
+- [NIST AI RMF Governance](../nist-ai-rmf-governance/)
+- [Content Provenance / Synthetic Media Transparency](../../transparency-and-provenance/content-provenance-synthetic-media-transparency/)
+- [AI Incident Management / Incident Disclosure](../../assurance-and-oversight/ai-incident-management-incident-disclosure/)
 
-## Source and licensing note
-This folder is a normalized repository copy of the source material for the `frameworks` domain. Check provenance and licensing before redistributing outside your approved workflow.
+## Notes / source boundaries
+- Keep the analysis tied to real GenAI behaviors such as generation, synthesis, and content distribution.
+- This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.

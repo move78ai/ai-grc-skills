@@ -1,23 +1,38 @@
 # ISO/IEC 42001 Governance
 
 ## What this skill does
-"use this skill when chatgpt needs to help with iso/iec 42001 ai management systems, including aims scoping, self-assessment, gap analysis, statement of applicability drafting.
+Operator-grade ISO/IEC 42001 workflows for scoping, gap analysis, SoA drafting, policy design, and evidence planning.
 
-## When to use it
-Use this skill when you need a practical starting point for iso/iec 42001 governance work and want the reusable workflow instructions in `SKILL.md` rather than a one-off note or draft.
+## Who it is for
+- Teams building or tightening an AI management system.
+- Operators who need a usable ISO/IEC 42001 gap analysis instead of abstract commentary.
+- Reviewers translating ISO/IEC 42001 into policies, registers, or audit actions.
 
-## What is included
-- `SKILL.md`
-- `README.md`
-- `agents/openai.yaml`
-- `scripts/`
-- `references/`
-- `assets/`
+## Use this skill when
+- You need to scope an AI management system or clarify organizational roles.
+- You need a gap analysis, Statement of Applicability view, or policy structure.
+- You need an ISO/IEC 42001 crosswalk into NIST AI RMF or the EU AI Act.
+
+## Typical inputs
+- Organizational role, business scope, and in-scope AI systems or services.
+- Existing governance artifacts such as policies, inventories, or risk registers.
+- Target outcome such as readiness review, audit preparation, or framework crosswalk.
+
+## Typical outputs
+- Clause-by-clause gap analysis with evidence requests.
+- Statement of Applicability starter and control selection rationale.
+- Policy outline, audit plan, or framework-mapping memo.
+
+## How it works
+- Separate management-system requirements from control selection and regulatory overlays.
+- Map each finding to the artifact that would prove implementation.
+- Keep crosswalks explicit about direct, supporting, or partial relationships.
 
 ## Related skills
-- `nist-ai-rmf-governance`
-- `oecd-ai-governance-and-classification`
-- `financial-services-ai-risk-management-framework`
+- [NIST AI RMF Governance](../nist-ai-rmf-governance/)
+- [EU AI Act Compliance](../../regulations/eu-ai-act-compliance/)
+- [Financial Services AI Risk Management Framework](../financial-services-ai-risk-management-framework/)
 
-## Source and licensing note
-This folder is a normalized repository copy of the source material for the `frameworks` domain. Check provenance and licensing before redistributing outside your approved workflow.
+## Notes / source boundaries
+- Use derivative summaries and original wording rather than reproducing ISO text.
+- This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.

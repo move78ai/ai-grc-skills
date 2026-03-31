@@ -1,23 +1,38 @@
 # Agentic AI Security
 
 ## What this skill does
-Comprehensive workflow skill for securing agentic ai applications using owasp top 10 for agentic applications 2026 as the primary threat taxonomy, with nist cyber ai profile and.
+Operator-grade security guidance for agentic threat models, least agency, memory risks, dependencies, and monitoring.
 
-## When to use it
-Use this skill when you need a practical starting point for agentic ai security work and want the reusable workflow instructions in `SKILL.md` rather than a one-off note or draft.
+## Who it is for
+- Teams threat-modeling or hardening agentic applications and agents.
+- Operators reviewing tool permissions, memory patterns, inter-agent communication, and supply-chain exposure.
+- Reviewers deciding whether current security conditions are sufficient for release.
 
-## What is included
-- `SKILL.md`
-- `README.md`
-- `agents/openai.yaml`
-- `scripts/`
-- `references/`
-- `assets/`
+## Use this skill when
+- You need an agentic threat model or control plan.
+- You need to review least-agency boundaries, memory risks, or dependency exposure.
+- You need monitoring, containment, and incident expectations for an agentic system.
+
+## Typical inputs
+- Architecture, agent roles, tools, external connectors, and execution boundaries.
+- Memory or context design, identity model, and privilege assumptions.
+- Current detections, supplier dependencies, and incident-response posture.
+
+## Typical outputs
+- Threat model, least-agency matrix, or deployment-hardening plan.
+- Monitoring and detection plan or containment playbook.
+- Security decision memo with required remediation actions.
+
+## How it works
+- Map attack surfaces created by tools, permissions, connectors, and statefulness.
+- Reduce privileges and trust boundaries before reaching for compensating controls.
+- Define what must be logged, monitored, and blocked before release.
 
 ## Related skills
-- `agentic-ai-governance`
-- `mitre-atlas-ai-security`
-- `owasp-agentic-ai-mapping-to-iso-42001`
+- [Agentic AI Governance](../agentic-ai-governance/)
+- [MITRE ATLAS AI Security](../mitre-atlas-ai-security/)
+- [OWASP Agentic AI Mapping to ISO/IEC 42001](../owasp-agentic-ai-mapping-to-iso-42001/)
 
-## Source and licensing note
-This folder is a normalized repository copy of the source material for the `agentic-and-security` domain. Check provenance and licensing before redistributing outside your approved workflow.
+## Notes / source boundaries
+- Treat memory, delegation, and connector access as first-class security issues, not implementation details.
+- This public repo centers on the instruction layer. If a referenced script, CSV, or template is not bundled in this folder, follow the workflow here and create the artifact directly.
